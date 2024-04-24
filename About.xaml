@@ -1,0 +1,38 @@
+﻿<Window x:Class="EllipDraw.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EllipDraw"
+        mc:Ignorable="d"
+        Background="#FFE8E8E8"
+        Title="About" Height="480" Width="800" Icon="/icon.ico">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Image Source="icon.ico" VerticalAlignment="Top" Margin="0,100,0,0" Grid.Column="0" Height="160"/>
+        <Image Source="icon.ico" VerticalAlignment="Top" Margin="0,100,0,0" Grid.Column="2" Height="160"/>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,100,0,0" Grid.Column="1">
+            <TextBlock FontSize="32">EllipDraw 2024</TextBlock>
+            <TextBlock FontSize="13">by Sascha Dierl</TextBlock>
+            <TextBlock FontSize="15" Margin="0,10">
+                A drawing program that only uses ellipses.<LineBreak/>
+                My first projekt using 2D graphics in C# (WPF).<LineBreak/>
+                There are a few bugs and missing features.<LineBreak/>
+                Version 1.0<LineBreak/>
+                <LineBreak/>
+                <Hyperlink ToolTip="Open 'https://github.com/KreativeName1' in default browser" NavigateUri="https://github.com/KreativeName1" RequestNavigate="Hyperlink_RequestNavigate">Github</Hyperlink><LineBreak/>
+                <LineBreak/>
+                Later Features:<LineBreak/>
+                - DataBinding<LineBreak/>
+                - Movement with mouse<LineBreak/>
+                - More options and features<LineBreak/>
+                - Toolbar<LineBreak/>
+                <LineBreak/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
