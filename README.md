@@ -1,8 +1,15 @@
-# EllipDraw
+# EllipDraw (C# WPF)
+
+## About
 A drawing programm that only uses ellipses.
 This is my first time working with 2D Graphics in C# (WPF)
 There are probably a few bugs and missing features
 
+## Features
+
+## Future Plans
+
+## Known Issues
 
 ## Used Technologies / Languages
 - ![CSARP](https://img.shields.io/badge/-CSHARP-000000?style=flat&logo=CSHARP)
